@@ -14,6 +14,30 @@
         <input type="email" id="email" name="email" placeholder="your email" required></p>
         <p><label for="pass">password:</label>
         <input type="password" id="pass" name="pass" placeholder="your password" required></p>
-        
-/body>
-</html>
+        <input type="date" id="dob" name="dob" required></p>
+        <p><label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="your phone number" required></p>
+        <p>Gender:
+            <input type="radio" id="male" name="gender" vale="male" required>
+            <label for="male" >male</label>
+            <input type="radio" id="female" name="gender" vale="female" required>
+            <label for="female">female</label></p>
+            <p>Interests:
+                <input type="checkbox" id="web" name="interests" value="web">
+                <label for="web">Web Development</label>
+                <input type="checkbox" id="DSA" name="interests" value="DSA">
+                <label for="DSA">DSA</label></p>
+                <P><label for="Branch">Branch:</label>
+                <select id="Branch" name="Branch" required>
+                    <option value="">Select your branch</option>
+                    <option value="CSE">Computer Science Engineering</option>
+                    <option value="IT">Information Technology</option>
+                    <option value="BCA">Bachelor of Computer Applications</option>
+                    <option value="MCA">Master of Computer Applications</option>
+                </select>
+            </P>
+            <P><label for="msg">Why do you want to join us?</label><br> 
+                <textarea id="msg" name="msg" placeholder="Tell us about yourself" required></textarea></P>
+                <button type="submit"> Register</button>
+</form>
+</body>
